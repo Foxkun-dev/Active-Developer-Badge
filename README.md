@@ -5,20 +5,20 @@ Chỉ cần chạy bot → gọi lệnh `/ping` → `/active` → claim huy hi�
 
 ------
 
-## 📌 1. Yêu cầu
+### 📌 1. Yêu cầu
 - [Node.js 18+](https://nodejs.org/) hoặc mới hơn
 - Một bot Discord đã tạo trong [Developer Portal](https://discord.com/developers/applications)
 - Token bot, Client ID, Guild ID (ID server bạn muốn test)
 
 
 
-## 📌 2. Cài đặt
+### 📌 2. Cài đặt
 1. Clone hoặc tải project về  
 2. Cài thư viện cần thiết:
 
 ```npm install discord.js dotenv```
 
-## 📌 3. Cấu hình
+### 📌 3. Cấu hình
 Tạo file .env trong thư mục bot
 
 TOKEN=token_bot_của_bạn
@@ -26,14 +26,14 @@ CLIENT_ID=id_app_của_bạn
 GUILD_ID=id_server_của_bạn
 
 
-## 📌 4. Chạy bot
+### 📌 4. Chạy bot
 
 node index.js
 Bot sẽ:
 Đăng ký lệnh /ping
 Đăng ký lệnh /active
 
-## 📌 5. Sử dụng
+### 📌 5. Sử dụng
 /ping → Test bot hoạt động
 /active → Lấy link claim huy hiệu
 
