@@ -16,14 +16,13 @@ Chỉ cần chạy bot → gọi lệnh `/ping` → `/active` → claim huy hi�
 1. Clone hoặc tải project về  
 2. Cài thư viện cần thiết:
 
-npm install discord.js dotenv
+```npm install discord.js dotenv```
 
 ## 📌 3. Cấu hình
 Tạo file .env trong thư mục bot:
-
-TOKEN=token_bot_của_bạn
+``TOKEN=token_bot_của_bạn
 CLIENT_ID=id_app_của_bạn
-GUILD_ID=id_server_của_bạn
+GUILD_ID=id_server_của_bạn``
 
 ## 📌 4. Chạy bot
 
